@@ -23,8 +23,7 @@ cask "neodlp" do
 
   # Remove NeoDLP from macOS quarantine (bypass "damaged file" and "unvarified developer" warnings)
   postflight do
-    system_command "/usr/bin/xattr",
-      args: ["-r", "-d", "com.apple.quarantine", "/Applications/NeoDLP.app"]
+    system_command "/usr/bin/xattr", args: ["-r", "-d", "com.apple.quarantine", "/Applications/NeoDLP.app"]
   end
 
   zap trash: [
