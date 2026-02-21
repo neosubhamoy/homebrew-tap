@@ -22,10 +22,11 @@ cask "neodlp" do
     app "NeoDLP.app"
 
     zap trash: [
-        "~/Library/LaunchAgents/com.neosubhamoy.neodlp.plist",
+        "~/Library/Application Support/com.neosubhamoy.neodlp",
         "~/Library/Application Support/Google/Chrome/NativeMessagingHosts/com.neosubhamoy.neodlp.json",
         "~/Library/Application Support/Chromium/NativeMessagingHosts/com.neosubhamoy.neodlp.json",
         "~/Library/Application Support/Mozilla/NativeMessagingHosts/com.neosubhamoy.neodlp.json",
+        "~/Library/LaunchAgents/com.neosubhamoy.neodlp.plist",
         "~/Library/Logs/com.neosubhamoy.neodlp",
         "~/yt-dlp-plugins/bgutil-ytdlp-pot-provider"
     ]
