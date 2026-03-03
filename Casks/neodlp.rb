@@ -2,8 +2,8 @@ cask "neodlp" do
   arch arm: "aarch64", intel: "x64"
 
   version "0.4.2"
-  sha256 arm:   "e8b5bab646f343412d337fc46f2fdd61fc6d1bd1c1b90e258ab95f0d64b5bb09",
-         intel: "1f79943e89fbeaa70102469b40a81f5b560c69b7c699708ababb9d1bdbd8ad30"
+  sha256 arm:   "1f79943e89fbeaa70102469b40a81f5b560c69b7c699708ababb9d1bdbd8ad30",
+         intel: "e8b5bab646f343412d337fc46f2fdd61fc6d1bd1c1b90e258ab95f0d64b5bb09"
 
   url "https://github.com/neosubhamoy/neodlp/releases/download/v#{version}/NeoDLP_#{version}_#{arch}.dmg",
       verified: "github.com/neosubhamoy/neodlp/"
