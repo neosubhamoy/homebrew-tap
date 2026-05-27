@@ -16,7 +16,7 @@ cask "neodlp" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
   depends_on formula: "aria2"
 
   app "NeoDLP.app"
